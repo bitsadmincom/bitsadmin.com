@@ -1,0 +1,7 @@
+<div class="container cards">
+    <h1 class="pt-4 fw-bold text-light">Projects</h1>
+    <p class="text-light">Examples of contributions to the security community to make the world a safer place.</p>
+
+    {% assign projects = site.pages | where: "category", "project" | sort: "order" %}
+    {% include badges.html items=projects category='projects' btntheme='dark' %}
+</div>

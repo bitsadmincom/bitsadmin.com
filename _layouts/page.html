@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<section class="bg-dark text-light text-center p-2 p-sm-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="d-flex align-items-center justify-content-lg-center py-3">
+                <img style="filter: invert(100%);" src="/assets/images/{{page.name | replace:'.md','.svg'}}" height="30px" class="d-block pe-2">
+                <div>
+                    <h2 class="modal-title fw-bold">{{ page.title }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4 text-start text-lg-center">
+                <h4>{{ page.caption }}</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content-page bg-light text-dark p-2 p-sm-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-lg-8 col-xxl-6 mx-auto">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,12 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BITSADMIN</title>
-</head>
-<body>
-    Hello World!
-</body>
-</html>
+---
+layout: default
+---
+
+<!-- Logo -->
+<section class="bg-dark text-light text-center">
+    <div class="container pb-4 pt-3">
+        <img class="img-fluid w-75-sm-100" src="/assets/images/logo_text_subtext_white.svg" />
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="anchor bg-light text-dark text-center pb-4 card-group">
+    {% include services.html %}
+</section>
+
+<!-- Projects -->
+<section id="projects" class="anchor bg-dark text-dark text-center pb-4 card-group">
+    {% include projects.html %}
+</section>
+
+<!-- About me -->
+<section id="aboutme" class="anchor bg-light text-dark">
+    {% include aboutme.html %}
+</section>
+
+<!-- Contact -->
+<section id="contact" class="anchor bg-dark text-light">
+    {% include contact.html %}
+</section>

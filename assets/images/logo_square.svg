@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="500"
+   width="500"
+   overflow="hidden"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="logo_square.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs19" />
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.278941"
+     inkscape:cx="181.00914"
+     inkscape:cy="278.74625"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <clipPath
+     id="a">
+    <path
+       d="M 0,0 H 720 V 720 H 0 Z"
+       id="path2" />
+  </clipPath>
+  <g
+     clip-path="url(#a)"
+     transform="translate(-120,-110)"
+     id="g13">
+    <path
+       d="M 0,0 H 720 V 720 H 0 Z"
+       fill="none"
+       id="path5" />
+    <g
+       fill="#ff0000"
+       font-family="Consolas, Consolas_MSFontService, sans-serif"
+       font-weight="700"
+       id="g11">
+      <text
+         font-size="551px"
+         transform="rotate(-90,444.224,-69.224)"
+         id="text7">{</text>
+      <text
+         font-size="319px"
+         transform="translate(185.958,554)"
+         id="text9">\/</text>
+    </g>
+  </g>
+</svg>

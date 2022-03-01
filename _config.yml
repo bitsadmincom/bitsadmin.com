@@ -1,0 +1,28 @@
+# Site settings
+title: BITSADMIN
+description: Empowering Businesses in a Digital World
+url: "https://bitsadmin.com"
+baseurl: ""
+repository: bitsadmincom/bitsadmincom.github.io
+
+defaults:
+  - scope:
+      path: "services"
+      type: "pages"
+    values:
+      layout: "page"
+      category: "service"
+
+  - scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "page"
+      category: "project"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

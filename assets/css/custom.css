@@ -1,0 +1,75 @@
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    font-family: 'scroll-behavior: smooth;', sans-serif;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 48px;
+}
+
+@font-face {
+    font-family: 'maven_proregular';
+    src: url('mavenpro-variablefont_wght-webfont.woff2') format('woff2'), url('mavenpro-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "maven_proregular", sans-serif;
+}
+
+a[target="_blank"]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0px 3px 0px 5px;
+}
+
+.anchor {
+    scroll-margin-top: 56px;
+}
+
+.w-75-sm-100 {
+    width: 75%;
+}
+@media screen and (max-width: 768px) {
+    .w-75-sm-100 { width: 100%; }
+}
+
+img.card-img-top {
+    max-height: 75px;
+}
+
+.cards .card {
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 275px;
+}
+
+#contact img {
+    padding: 4px;
+}
+
+.content-page h3 {
+    padding-top: 1em;
+}
+
+.bg-red { background-color: rgb(255, 0, 0); }
+.bg-blue { background-color: rgb(0, 0, 255); }
+.bg-purple { background-color: rgb(128, 0, 128); }
+.bg-green { background-color: rgb(25, 135, 84); }
+.bg-orange { background-color: rgb(255, 128, 0); }
+
+.team {
+    display: inline-block;
+    padding: .15em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}

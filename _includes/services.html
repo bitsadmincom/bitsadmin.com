@@ -1,0 +1,7 @@
+<div class="container cards">
+    <h1 class="pt-4 fw-bold">Services</h1>
+    <p>Providing tailored expert support to secure your business.</p>
+
+    {% assign services = site.pages | where: "category", "service" | sort: "order" %}
+    {% include badges.html items=services category='services' btntheme='dark' %}
+</div>

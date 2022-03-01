@@ -1,0 +1,12 @@
+<svg height="460" width="500" overflow="hidden" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <clipPath id="a">
+    <path d="m0 0h720v720h-720z"/>
+  </clipPath>
+  <g clip-path="url(#a)" transform="translate(-120.28846,-129.80769)">
+    <path d="m0 0h720v720h-720z" fill="none"/>
+    <g fill="#f00" font-family="Consolas,Consolas_MSFontService,sans-serif" font-weight="700">
+      <text font-size="551" transform="matrix(0 -1 1 0 513.448 375)">{</text>
+      <text font-size="319" transform="translate(185.958 554)">\/</text>
+    </g>
+  </g>
+</svg>
