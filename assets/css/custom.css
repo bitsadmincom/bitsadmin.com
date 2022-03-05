@@ -42,8 +42,6 @@ img.card-img-top {
 }
 
 .cards .card {
-    min-width: 400px;
-    max-width: 400px;
     min-height: 275px;
 }
 
