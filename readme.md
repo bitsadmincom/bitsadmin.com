@@ -1,2 +1,6 @@
 - Install docker
-- Run with ```docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:3.0 bundle install```
+- Run with ```docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  --publish 4000:4000 \
+  jekyll/jekyll \
+  jekyll serve```
