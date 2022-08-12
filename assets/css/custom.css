@@ -26,6 +26,11 @@ a[target="_blank"]::after {
     margin: 0px 3px 0px 5px;
 }
 
+div#navmenu a[target="_blank"]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAAOUlEQVQIW2NgQAL/oQDBgAjPgQoiqQQJzUERhAiBDIELwoQgHLDgfxskIZggSBiJj2wRIUF0wMAAAHprVQnCZc1rAAAAAElFTkSuQmCC);
+    margin: 0px 3px 0px 5px;
+}
+
 .anchor {
     scroll-margin-top: 56px;
 }
